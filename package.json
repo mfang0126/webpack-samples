@@ -1,0 +1,25 @@
+{
+  "name": "webpack-samples",
+  "version": "1.0.0",
+  "description": "webpack basic setup sample",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfang0126/webpack-samples.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Ming Fang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfang0126/webpack-samples/issues"
+  },
+  "homepage": "https://github.com/mfang0126/webpack-samples#readme",
+  "devDependencies": {
+    "webpack": "^2.3.3"
+  }
+}
