@@ -4,7 +4,7 @@
   "description": "webpack basic setup sample",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch"
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/mfang0126/webpack-samples#readme",
   "devDependencies": {
-    "webpack": "^2.3.3"
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
   }
 }
