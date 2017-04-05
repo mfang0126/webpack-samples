@@ -3,7 +3,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 var devCss = ExtractTextPlugin.extract({
 	fallback: 'style-loader',
-	use: 'css-loader'
+	use: ['css-loader', 'sass-loader'],
+	publicPath: '/dist'
 });
 module.exports = {
 	entry: './src/script.js',
@@ -14,13 +15,15 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.css$/,
+				test: /\.scss$/,
 				use: devCss
 			}
 		]
 	},
 	devServer: {
 		contentBase: path.join(__dirname, 'dist'),
+		compress: true,
+		stats: 'errors-only',
 		open: true
 	},
 	plugins: [

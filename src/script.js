@@ -1,4 +1,4 @@
-const css = require('./sample.css')
+const css = require('./sample.scss')
 window.onload = function() {
 	var element = document.getElementById('playground');
 	element.innerHTML = "Text is replaced by javascript, is compiled by webpack.";
