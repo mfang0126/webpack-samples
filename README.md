@@ -1,2 +1,2 @@
 # webpack-samples
-Webpack configuration templates.
+This repository is for understanding how the webpack worked. 
