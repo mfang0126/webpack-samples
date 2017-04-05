@@ -1,2 +1,2 @@
 # webpack-samples
-This repository is for understanding how the webpack worked. 
+Updated with DevServer, which means it can update the javascript while it changes.
