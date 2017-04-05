@@ -1,2 +1,2 @@
 # webpack-samples
-This repository is for understanding how the webpack worked. 
+This branch contains html-webpack-plugin and webpack-dev-server.
