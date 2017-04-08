@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server",
     "prod": "npm run clean && NODE_ENV=production webpack -p",
     "clean": "rimraf ./dist/*",
-    "devd":"webpack -d"
+    "devd": "webpack -d"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,8 @@
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
     "html-webpack-plugin": "^2.28.0",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.2.1",
     "node-sass": "^4.5.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",

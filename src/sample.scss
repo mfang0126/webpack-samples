@@ -1,6 +1,7 @@
+@import './bootstrap/customizations.scss';
 body {
 	background-color: yellow;
 	div{
-		background-color: yellow;
+		background-color: $brand-success;
 	}
 }
